@@ -21,7 +21,7 @@ jobs:
       - name: Checkout docs source
         uses: actions/checkout@v4
         with:
-          repository: ImKarven/orderium-docs
+          repository: Orderium/docs
           ref: master
           path: docs-src
           token: ${{ secrets.DOCS_READ_TOKEN }}
