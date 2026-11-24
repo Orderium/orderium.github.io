@@ -24,7 +24,6 @@ jobs:
           repository: Orderium/docs
           ref: master
           path: docs-src
-          token: ${{ secrets.DOCS_READ_TOKEN }}
 
       - uses: withastro/action@v3
         with:
